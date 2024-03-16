@@ -1,0 +1,223 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* navbar start */
+.navbar{
+    background-color: rgba(0,0,0,0.3);
+    
+}
+
+
+.navbar-brand{
+    padding: 0% 10%;
+}
+
+.navbar-nav{
+    padding: 0% 10%;
+    gap: 1rem;
+   
+}
+
+.navbar-nav .nav-item:hover{
+    color: black;
+    background-color: blue;
+    border-radius: 10px;
+    transition: .3s;
+    transform: scale(1.1);
+   
+   
+}
+
+/* navbar ends */
+
+
+
+/* .hr-style{
+    border: 5px dotted black;
+    border-bottom: none;
+    width: 100px;
+    
+} */
+
+/* header start */
+header {
+    background-image: url(./banner/pexels\ rose\ 3\ -photo-714918.jpeg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* header ends */
+
+/* banner start */
+
+.banner-container {
+    height: 100vh;
+    align-items: center;
+}
+
+.banner-contents h1 {
+    background-color: blue;
+    padding: 2rem;
+    border-radius: 10px;
+    font-family: 'Dancing Script', cursive;
+}
+
+/* banner ends */
+
+/* features start */
+#features {
+    padding: 5% 10%;
+    background-color: #e8ded2;
+}
+
+.features-col {
+    border: 1px solid #ff02c0;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px;
+    transition: .4s;
+}
+
+.features-col:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 5px 6px;
+}
+
+/* features ends */
+
+
+/* about me start */
+
+#about-me {
+    padding: 4% 10%;
+    background-color: #e8ded2;
+}
+
+#about-me p {
+    font-size: 0.9rem;
+    margin-bottom: 0;
+    font-weight: lighter;
+}
+
+#about-me a {
+    font-size: 0.9rem;
+    font-weight: lighter;
+    color: black;
+}
+
+.achieve-disc span {
+    font-weight: 700 !important;
+}
+
+
+.star i {
+    width: 20px;
+}
+
+/* about me ends */
+
+/* tutorial-start */
+
+#tutorial {
+    padding: 4% 10%;
+    background-color: #a3d2ca;
+
+
+#tutorial h3 span {
+        color: blue;
+    }
+
+
+    .card:hover {
+        transform: scale(1.1);
+        transition: .4s;
+        box-shadow: 2px 5px 6px;
+    }
+}
+
+/* tutorial-ends */
+
+
+/* feedback start */
+
+#feedback {
+    background: #0d0442;
+    padding: 7% 10%;
+}
+
+.carousel-item {
+    padding: 5% 15%;
+    text-align: center;
+    font-style: italic;
+}
+
+.feedback-img {
+    width: 120px;
+    height: auto;
+}
+
+.carousel-indicators {
+    bottom: -20px;
+}
+
+
+/* feedback ends */
+
+
+/* contact start */
+
+#contact {
+    padding: 4% 10%;
+    background-color: #333;
+}
+
+.form-group label {
+    font-weight: bolder;
+}
+
+
+/* contact ends */
+
+
+/* footer start*/
+
+footer {
+    padding: 1% 10%;
+    background-color: #056676;
+}
+
+footer a {
+    color: white;
+    margin: 10px;
+}
+
+footer a:hover {
+    color: black;
+}
+
+
+footer .home{
+    text-decoration: none;
+}
+
+/* footer ends */
+
+
+/* responsive start */
+
+@media(max-width:768px){
+    .nav-link{
+       background-color: rgba(0,0,0,0.7);
+       text-align: center;
+    }
+
+    #about-me{
+        text-align: center;
+    }
+}
+
+/* responsive ends */
